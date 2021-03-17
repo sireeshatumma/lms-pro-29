@@ -81,7 +81,7 @@ function draw() {
   Engine.update(engine);
   textSize(20);
   fill("lightyellow");
-  text("Drag the Hexagonal Stone and Release it, to launch it towards the blocks",100,30);
+  text("Drag the Hexagonal Stone and Release it, to launch it towards the blocks",100,50);
 
   fill(rgb(135, 205, 236));
 
