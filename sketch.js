@@ -132,7 +132,7 @@ function draw() {
 
 
 function mouseDragged(){
-  Matter.Body.setPosition(this.ball, {x: mouseX , y: mouseY});
+  Matter.Body.setPosition(ball, {x: mouseX , y: mouseY});
 }
 
 
@@ -143,7 +143,7 @@ function mouseReleased(){
 function keyPressed(){
 	if(keyCode === 32)
 	{
-		Matter.Body.setPosition(player.body,{x:235, y:420})
-		chain.attach(player.body);
+		Matter.Body.setPosition(ball,{x:235, y:420})
+		chain.attach(ball);
 	}
 }
