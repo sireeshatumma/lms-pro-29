@@ -144,6 +144,6 @@ function keyPressed(){
 	if(keyCode === 32)
 	{
 		Matter.Body.setPosition(ball,{x:235, y:420})
-		chain.attach(ball);
+		sling.attach(ball);
 	}
 }
